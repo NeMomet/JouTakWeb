@@ -30,7 +30,7 @@ const FALLBACK_HOMEPAGE_CONTENT = {
 export default function JouTak() {
   const bootstrapVariant = useStringFlagValue(
     "site_homepage_version",
-    "legacy",
+    "v2",
   );
   const [state, setState] = useState({
     payload: null,

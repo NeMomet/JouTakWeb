@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Notification from "../../components/Notification";
 
 function Hero({ hero }) {
   return (
@@ -167,6 +168,7 @@ FAQ.propTypes = {
 export default function HomepageV2({ content }) {
   return (
     <div className="py-2">
+      <Notification />
       <Hero hero={content?.hero} />
       <Projects
         items={Array.isArray(content?.projects) ? content.projects : []}

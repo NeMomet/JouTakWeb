@@ -13,7 +13,7 @@ export default function LegacyHomepage({ content }) {
 
       <div className="p-5 mb-4 rounded-3">
         <div className="container pb-5">
-          <h1 className="display-5 fw-bold">{hero.title || "JouTak"}</h1>
+          <h1 className="display-5 fw-bold">JJJJouTak</h1>
           <p className="col-md-8 fs-4 lh-xs mx-auto">{hero.description}</p>
           <p className="col-md-8 fs-4 lh-xs mx-auto fw-bold">
             IP: {hero.server_ip || "mc.joutak.ru"}
